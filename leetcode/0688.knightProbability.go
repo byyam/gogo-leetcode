@@ -1,0 +1,5 @@
+package leetcode
+
+func knightProbability(N int, K int, r int, c int) float64 {
+	return 0
+}
