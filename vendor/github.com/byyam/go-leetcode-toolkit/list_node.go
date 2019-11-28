@@ -1,4 +1,4 @@
-package leetcode
+package toolkit
 
 import "fmt"
 

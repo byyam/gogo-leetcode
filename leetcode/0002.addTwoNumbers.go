@@ -1,5 +1,7 @@
 package leetcode
 
+import . "github.com/byyam/go-leetcode-toolkit"
+
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	l0 := &ListNode{Val: -1}
 	p0 := l0

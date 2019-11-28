@@ -1,14 +1,15 @@
 package leetcode
 
 import (
+	"github.com/byyam/go-leetcode-toolkit"
 	"testing"
 )
 
 func TestAddTwoNumbers(t *testing.T) {
-	l1 := &ListNode{Val: -1}
+	l1 := &toolkit.ListNode{Val: -1}
 	l1.AppendList([]int{5, 1, 3})
 	l1.Next.String()
-	l2 := &ListNode{Val: -1}
+	l2 := &toolkit.ListNode{Val: -1}
 	l2.AppendList([]int{5, 8, 6, 1})
 	l2.Next.String()
 
