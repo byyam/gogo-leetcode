@@ -2,3 +2,5 @@ github.com/byyam/go-leetcode-toolkit v0.0.0-20191128132121-cade8b81cfbf h1:IgsAc
 github.com/byyam/go-leetcode-toolkit v0.0.0-20191128132121-cade8b81cfbf/go.mod h1:oHu/W7CTEtG+Nzlut6YycY5uWXUDrr0bTPyEFLH7/90=
 github.com/byyam/go-leetcode-toolkit v0.0.0-20191128134158-04de61294ca3 h1:fyViW2cRAIUsxP3Rh1ZJx8GQX0ZBSbfP+1cb3+UL89I=
 github.com/byyam/go-leetcode-toolkit v0.0.0-20191128134158-04de61294ca3/go.mod h1:oHu/W7CTEtG+Nzlut6YycY5uWXUDrr0bTPyEFLH7/90=
+github.com/byyam/go-leetcode-toolkit v0.0.0-20200316123055-e89c21a91e9f h1:GWKlU1hHjxO4b/cDE4tVfLHMp6ygcImRmZkvQgVA5HE=
+github.com/byyam/go-leetcode-toolkit v0.0.0-20200316123055-e89c21a91e9f/go.mod h1:oHu/W7CTEtG+Nzlut6YycY5uWXUDrr0bTPyEFLH7/90=

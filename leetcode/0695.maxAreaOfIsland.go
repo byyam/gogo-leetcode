@@ -1,16 +1,12 @@
 package leetcode
 
-import "fmt"
+import (
+	"fmt"
+	toolkit "github.com/byyam/go-leetcode-toolkit"
+)
 
 var highLen = 0
 var wideLen = 0
-
-func PrintGrid(grid [][]int) {
-	for _, list := range grid {
-		fmt.Printf("%v\n", list)
-
-	}
-}
 
 func maxAreaOfIsland(grid [][]int) int {
 	// 获取二维数组的宽高
@@ -20,7 +16,7 @@ func maxAreaOfIsland(grid [][]int) int {
 	}
 	wideLen = len(grid[0])
 	fmt.Printf("high=%d, wide=%d\n", highLen, wideLen)
-	PrintGrid(grid)
+	toolkit.PrintGrid(grid)
 
 	maxArea := 0
 	thisArea := 0
@@ -30,7 +26,7 @@ func maxAreaOfIsland(grid [][]int) int {
 			fmt.Printf("before i=%d, j=%d\n", i, j)
 			thisArea = maxAreaOfIslandDFS(grid, i, j)
 			fmt.Printf("area=%d, i=%d, j=%d\n", thisArea, i, j)
-			PrintGrid(grid)
+			toolkit.PrintGrid(grid)
 
 			if thisArea > maxArea {
 				maxArea = thisArea

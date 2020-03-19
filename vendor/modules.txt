@@ -1,2 +1,2 @@
-# github.com/byyam/go-leetcode-toolkit v0.0.0-20191128134158-04de61294ca3
+# github.com/byyam/go-leetcode-toolkit v0.0.0-20200316123055-e89c21a91e9f
 github.com/byyam/go-leetcode-toolkit
